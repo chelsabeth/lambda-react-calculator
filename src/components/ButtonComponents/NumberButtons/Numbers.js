@@ -8,7 +8,7 @@ import { numbers } from '../../../data'
 
 //Import your array data to from the provided data file
 
-export default function Numbers () {
+export default function Numbers() {
   const [numberArray, setNumber] = useState(numbers);
   // STEP 2 - add the imported data to state 
   console.log(numberArray);
