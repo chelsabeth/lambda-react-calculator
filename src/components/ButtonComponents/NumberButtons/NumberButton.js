@@ -5,7 +5,7 @@ const NumberButton = props => {
   return (
     <>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-     <button className="num-btns">{props.integer}</button>
+     <button className="num-btns" onClick={() => props.setValue(props.integer)}>{props.integer}</button>
 
     </>
   );
